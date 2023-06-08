@@ -52,7 +52,6 @@ fn typecheck(exp: Exp) -> Type{
         }
 }
 
-
 fn main() {
     let ex: Exp = Exp::Plus { 
         left: (Box::new(Exp::Mult { 
