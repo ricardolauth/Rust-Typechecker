@@ -48,7 +48,7 @@ pub enum Exp {
     },
 }
 ```
-but in addition Rust's enums are very powerful, which also results in a readable and short solution. Rust's enum match expression combined with a simple control flow statement is well suited to this problem. 
+but in addition Rust's enums are very powerful, which also results in a readable and short solution. Rust's enum match expression is well suited to this problem. 
 ```Rust
 fn typecheck(exp: Exp) -> Type{
     fn assert_type(assert: Type, left: Type, right : Type) -> Type{
